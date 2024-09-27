@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html ng-app="studentApp">
+<head>
+    <title>Student CRUD with AngularJS</title>
+    <script src="app\lib\angular.min.js"></script>
+    <script src="app\lib\angular-route.min.js"> </script>
+    <script src=" app\app.js"></script>
+    <script src="Controller\studentController.js"></script>
+    <script src="Service\studentService.js"></script>
+    <!-- <script src="content\css\style.css"></script> -->
+    <link rel="stylesheet" href="content/css/style.css">
+</head>
+<body>
+    <div ng-include="'navbar.html'"></div>
+    <div ng-view></div>
+</body>
+</html>
